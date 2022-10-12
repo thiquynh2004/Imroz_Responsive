@@ -1,0 +1,56 @@
+section#slider {
+  position: relative;
+  padding-top: 76px;
+}
+.slider {
+  /* background-color: beige; */
+  height: 100%;
+  background-image: url(../../image/imroz/bg-image-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background: #000000;
+}
+
+.inner-title {
+  padding: 80px 0;
+  color: var(--color-primary);
+  opacity: 0.9;
+  text-align: center;
+  font-size: 100px;
+  line-height: 112px;
+  font-weight: 900;
+  font-family: "Montserrat", sans-serif;
+  background: linear-gradient(
+    120deg,
+    #1c99fe 20.69%,
+    #7644ff 50.19%,
+    var(--color-primary) 79.69%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.service {
+  padding: 80px 0;
+  color: white;
+  text-align: center;
+}
+
+.service .service-item .icon {
+  color: var(--color-primary);
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.service .service-item h4 {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.4074;
+
+}
+.service .service-item p {
+  color: #bfbdbd;
+  line-height: 1.6;
+  opacity: 0.6;
+}
