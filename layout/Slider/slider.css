@@ -1,6 +1,6 @@
-section#slider {
+#slider {
   position: relative;
-  padding-top: 76px;
+  padding-top: 36px;
 }
 .slider {
   /* background-color: beige; */
@@ -53,4 +53,6 @@ section#slider {
   color: #bfbdbd;
   line-height: 1.6;
   opacity: 0.6;
+}
+@media screen and (max-width:320px) {
 }

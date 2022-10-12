@@ -96,6 +96,19 @@ hr {
   }
 }
 @media screen and (max-width:320px){
-
+  .footer .btn-default{
+    font-size: 12px;
+    padding: 18px 18px
+  }
+  .footer h1 {
+    font-size: 18px;
+  }
+  hr{
+    margin: 30px 0;
+  }
+  .footer .list-item li, .footer .list-item li{
+    font-size: 14px;
+    line-height:18px;
+  }
 }
     
