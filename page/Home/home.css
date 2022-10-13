@@ -128,9 +128,9 @@ a.nav-link.active {
   display: block;
   object-fit: cover;
 }
-.about-area .information {
+/* .about-area .information {
   margin-left: 70px;
-}
+} */
 .about-area .information .icon {
   display: inline-block;
   width: 60px;
