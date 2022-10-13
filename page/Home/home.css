@@ -535,7 +535,7 @@ a.btn-transparent::after {
   }
 
   .about-area .information {
-    padding: 0 70px;
+    /* padding: 0 70px; */
   }
   .about-area .information .title h1 {
     font-size: 42px;
@@ -611,6 +611,18 @@ a.btn-transparent::after {
 }
 
 @media screen and (max-width: 576px) {
+  .logo img {
+    max-height: 50px;
+  }
+  .slider .inner-title {
+    font-size: 34px;
+    line-height: 50px;
+    padding-top: 50px;
+  }
+
+  .inner-title {
+    padding: 0;
+  }
   .btn-nav-menu {
     margin: 0 6px;
   }
@@ -623,20 +635,98 @@ a.btn-transparent::after {
   .nav-menu.opened {
     font-size: 1rem;
   }
+  .about-area .information .title h1 {
+    font-size: 40px;
+  }
+  .about-area .thumbnail img {
+    width: 304px;
+  }
+  .about-area .information {
+    margin-left: 0;
+    padding: 0;
+  }
+  .about-area,
+  .service-area,
+  .experts_growts,
+  .member-project,
+  .store,
+  .footer {
+    padding: 40px 0;
+  }
+  .service-area h1,
+  .our-project h1,
+  .experts_growts h1,
+  .clients h1 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 55px;
+    margin-bottom: 20px;
+  }
+  .portfolio .thumbnail img {
+    width: 320px;
+  }
+  .portfolio .content .inner {
+    width: auto;
+  }
 }
-
+@media screen and (min-width: 320px) and (max-width: 576px) {
+  .about-area .thumbnail img {
+    width: 280px;
+  }
+  .about-area .information {
+    margin-left: 0;
+    padding: 0;
+  }
+  .about-area .information .title h1,
+  .service-area h1,
+  .our-project h1,
+  .experts_growts h1,
+  .clients h1 {
+    font-size: 30px;
+    margin: 10px 0;
+  }
+  .about-area .information .description p,
+  .service-area p,
+  .our-project p,
+  .clients p {
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .service-area h1,
+  .our-project h1,
+  .experts_growts h1,
+  .clients h1 {
+    line-height: 42px;
+  }
+  .about-area,
+  .service-area,
+  .experts_growts,
+  .member-project,
+  .store,
+  .footer {
+    padding: 50px 0;
+  }
+  .portfolio .thumbnail img {
+    width: 290px;
+  }
+  .portfolio .content .portfolio_hover {
+    height: 70px;
+  }
+  .clients .thumbnail {
+    margin: 22px 20px;
+  }
+  .member-project .member-inner p {
+    font-size: 18px;
+    line-height: 38px;
+  }
+}
 @media screen and (max-width: 320px) {
   .logo img {
-    max-height: 50px;
+    max-height: 40px;
   }
-  .slider .inner-title {
-    font-size: 34px;
-    line-height: 50px;
-    padding-top: 50px;
-  }
-
-  .inner-title {
-    padding:0;
+  .btn-nav-menu a {
+    font-size: 10px;
+    padding: 10px 12px;
   }
   .about-area .thumbnail img {
     width: 240px;
@@ -645,50 +735,65 @@ a.btn-transparent::after {
     margin-left: 0;
     padding: 0;
   }
-  .about-area .information .title h1 , .service-area h1,
+  .about-area .information .title h1,
+  .service-area h1,
   .our-project h1,
   .experts_growts h1,
-  .clients h1{
+  .clients h1 {
     font-size: 30px;
-    margin:10px 0
+    margin: 10px 0;
   }
-  .about-area .information .description p, .service-area p, .our-project p, .clients p{
+  .about-area .information .description p,
+  .service-area p,
+  .our-project p,
+  .clients p {
     font-size: 14px;
     line-height: 25px;
   }
-  .service-area h1, .our-project h1, .experts_growts h1, .clients h1{
-    line-height:42px;
+  .service-area h1,
+  .our-project h1,
+  .experts_growts h1,
+  .clients h1 {
+    line-height: 42px;
   }
-  .about-area, .service-area, .experts_growts, .member-project, .store, .footer {
+  .about-area,
+  .service-area,
+  .experts_growts,
+  .member-project,
+  .store,
+  .footer {
     padding: 50px 0;
-}
-.home-service {
-  padding: 20px 20px;
-}
-.experts_growts .col-12 {
-  margin: 12px 0;
-}
-.member-project .member-inner p {
-  font-size:16px;
-  line-height:30px;
-}
-.member-project .author h6 {
-  font-size: 16px;
-  line-height: 35px;
-}
-.member-project .member-inner {
-  padding-bottom: 12px;
-}
-.member-project .nav .row {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  row-gap: 10px;
-}
-.clients .col-lg-12.mt--20 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-.clients .thumbnail {
-  margin: 30px 30px;
-}
+  }
+  .portfolio .content .portfolio_hover {
+    height: 70px;
+  }
+  .home-service {
+    padding: 20px 20px;
+  }
+  .experts_growts .col-12 {
+    margin: 12px 0;
+  }
+  .member-project .member-inner p {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .member-project .author h6 {
+    font-size: 16px;
+    line-height: 35px;
+  }
+  .member-project .member-inner {
+    padding-bottom: 12px;
+  }
+  .member-project .nav .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10px;
+  }
+  .clients .col-lg-12.mt--20 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .clients .thumbnail {
+    margin: 30px 30px;
+  }
 }
