@@ -55,4 +55,10 @@
   opacity: 0.6;
 }
 @media screen and (max-width:320px) {
+  #slider{
+    padding-top: 28px;
+  }
+  .slider .service{
+    padding: 0
+  }
 }
